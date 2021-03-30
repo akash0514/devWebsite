@@ -1,0 +1,137 @@
+html
+{
+	width:100%;
+	font-family: garamond, serif;
+}
+body
+{
+	margin: 0 !important;
+	font-size:18px;
+	background-image: url("images/backgrounddone.png");
+	/* Background pattern from Toptal Subtle Patterns */
+	width:100%;
+	color:#707070;
+	
+}
+#container
+{
+	width: 100%;
+}
+nav
+{
+	width:100%;
+	text-align:center;
+
+}
+.navigation
+{
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	color: #707070;
+}
+ol
+{
+	list-style-type: none;
+	padding:0;
+	margin:0;
+	line-height: 200%;
+	font-size:18px;
+	height:35px;
+	display: inline-block;
+}
+ol a
+{
+	cursor: pointer;
+	text-decoration:none;
+	display:block;
+	color:#707070;
+}
+ol > li
+{
+	margin-right:5px;
+	float:left;
+	min-width:190px;
+	height: 40px;
+	border: 2px solid #909090;
+	border-radius:10px;
+	background-color:rgba(255,255,255,0.2);
+}
+
+ol > li:hover
+{
+	background-color: #b5d4ff;
+	border-radius:10px;
+}
+footer
+{
+	text-align:center;
+	padding:10px;
+}
+header
+{
+	width:100%;
+	text-align:center;
+}
+#head
+{
+	width:60%;
+	align: center;
+	margin-left:auto;
+	margin-right:auto;
+}
+.logo
+{
+	width:100%;
+	float:left;
+	text-align:center;
+	padding: 2%;
+	margin-left: auto;
+	margin-right:auto;
+	display: inline-block;
+	font-size: 32px;
+}
+article
+{
+	width:100%;
+}
+#content
+{
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+.contenttile
+{
+	color:#707070;
+	text-align:justify;
+	/*display:table-cell;*/
+	float:left;
+	background-color: rgba(255,255,255,0.2);
+	width: 37%;
+	margin:3%;
+	padding:3%;
+	border-radius:20px;
+}
+.imagetile
+{
+	color:#707070;
+	text-align:justify;
+	background-color: rgba(255,255,255,0.2);
+	width: 100%;
+	border-radius:20px;
+	padding:2%;
+	margin: 2%;
+}
+.imagetiles
+{
+	color:#707070;
+	text-align:justify;
+	float:left;
+	width: 37%;
+	margin:3%;
+	padding:3%;
+}
